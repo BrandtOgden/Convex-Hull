@@ -95,7 +95,7 @@ Input:
 0 1
 ```
 Output:  
-![assets/test_12_2_2.gif](assets/test_12_2_2.gif)
+![assets/test_12_2_2.png](assets/test_12_2_2.png)
 
 ### test_13_6_6.txt
 Input:  

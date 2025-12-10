@@ -20,7 +20,7 @@ The output will be a series of images which make up the graph through each step,
 Since we're using the Dot Language provided by Graphviz, you will need to install Graphviz on your computer to run the program. 
  
 1. Install Graphviz on your computer https://graphviz.org/download/. Make sure when installing to check the box "Add Graphviz to the system PATH", as seen in the picture below.
-   ![assets/graphvizinstallpicture.jpg](assets/graphvizinstallpicture.png)
+   ![assets/graphvizinstallpicture.png](assets/graphvizinstallpicture.png)
 2. Install Image Magick as well https://imagemagick.org/script/download.php. Like with Graphviz, make sure to check all the boxes that are listed in this picture below.   
    ![assets/image_magick_install_picture.png](assets/image_magick_install_picture.png)
 3. Restart your computer so all the changes to your environment variables work properly.
@@ -75,7 +75,7 @@ Input:
 ```
 
 GIF created:
-![assets/test_1_5_5.gif](assets/test_1_5_5.gif)
+![assets/test1_5_5.gif](assets/test1_5_5.gif)
 
 ### test_7_4_3.txt
 Input:  
@@ -86,7 +86,7 @@ Input:
 1 1 0
 ```
 GIF created:  
-![assets/test_7_4_3.gif](assets/test_7_4_3.gif)
+![assets/test7_4_3.gif](assets/test7_4_3.gif)
 
 ### test_12_2_2.txt
 Input:  
@@ -95,7 +95,7 @@ Input:
 0 1
 ```
 Output:  
-![assets/test_12_2_2.gif](assets/test_12_2_2.gif)
+![assets/test12_2_2.gif](assets/test12_2_2.gif)
 
 ### test_13_6_6.txt
 Input:  
@@ -108,4 +108,4 @@ Input:
 0 0 1 0 0 1
 ```
 GIF created:  
-![assets/test_13_6_6.gif](assets/test_13_6_6.gif)
+![assets/test13_6_6.gif](assets/test13_6_6.gif)

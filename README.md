@@ -75,7 +75,7 @@ Input:
 ```
 
 GIF created:
-![assets/test1_5_5.gif](assets/test1_5_5.gif)
+![assets/test_1_5_5.gif](assets/test_1_5_5.gif)
 
 ### test_7_4_3.txt
 Input:  
@@ -86,7 +86,7 @@ Input:
 1 1 0
 ```
 GIF created:  
-![assets/test7_4_3.gif](assets/test7_4_3.gif)
+![assets/test_7_4_3.gif](assets/test_7_4_3.gif)
 
 ### test_12_2_2.txt
 Input:  
@@ -95,7 +95,7 @@ Input:
 0 1
 ```
 Output:  
-![assets/test12_2_2.gif](assets/test12_2_2.gif)
+![assets/test_12_2_2.gif](assets/test_12_2_2.gif)
 
 ### test_13_6_6.txt
 Input:  
@@ -108,4 +108,4 @@ Input:
 0 0 1 0 0 1
 ```
 GIF created:  
-![assets/test13_6_6.gif](assets/test13_6_6.gif)
+![assets/test_13_6_6.gif](assets/test_13_6_6.gif)

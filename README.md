@@ -20,13 +20,13 @@ The output will be a series of images which make up the graph through each step,
 Since we're using the Dot Language provided by Graphviz, you will need to install Graphviz on your computer to run the program. 
  
 1. Install Graphviz on your computer https://graphviz.org/download/. Make sure when installing to check the box "Add Graphviz to the system PATH", as seen in the picture below.
-   ![graphvizinstallpicture.jpg](graphvizinstallpicture.png)
+   ![assets/graphvizinstallpicture.png](assets/graphvizinstallpicture.png)
 2. Install Image Magick as well https://imagemagick.org/script/download.php. Like with Graphviz, make sure to check all the boxes that are listed in this picture below.   
-   ![image_magick_install_picture.png](image_magick_install_picture.png)
+   ![assets/image_magick_install_picture.png](assets/image_magick_install_picture.png)
 3. Restart your computer so all the changes to your environment variables work properly.
 4. If you're compiling on the command line then use this command below. If you're using CLion, please proceed with steps 5 and 6.
 ```
- g++ -o dsa main.cpp grid.cpp point.cpp -I "/Program Files/Graphviz/include" -L "/Program Files/Graphviz/lib" -lgvc -lcgraph
+ g++ -o dsa src/main.cpp src/grid.cpp src/point.cpp -I "/Program Files/Graphviz/include" -L "/Program Files/Graphviz/lib" -lgvc -lcgraph
 ```
 
 5. Make sure this text is included in your CMakeLists.txt in order to properly include your installation directory and to reference which libraries we'll be using.
@@ -75,8 +75,7 @@ Input:
 ```
 
 GIF created:
-![https://user-images.githubusercontent.com/123508751/234115049-0649b5c7-892e-451c-9649-7c666ff1e522.gif](https://user-images.githubusercontent.com/123508751/234115049-0649b5c7-892e-451c-9649-7c666ff1e522.gif)
-
+![assets/test_1_5_5.gif](assets/test_1_5_5.gif)
 
 ### test_7_4_3.txt
 Input:  
@@ -87,8 +86,7 @@ Input:
 1 1 0
 ```
 GIF created:  
-![https://user-images.githubusercontent.com/123508751/234115052-9234b0b9-1edb-48b2-b0f5-f9bb08f8d4bd.gif](https://user-images.githubusercontent.com/123508751/234115052-9234b0b9-1edb-48b2-b0f5-f9bb08f8d4bd.gif)
-
+![assets/test_7_4_3.gif](assets/test_7_4_3.gif)
 
 ### test_12_2_2.txt
 Input:  
@@ -97,8 +95,7 @@ Input:
 0 1
 ```
 Output:  
-![https://user-images.githubusercontent.com/123508751/234115044-28f8b343-156e-47f9-af4a-d0307a7c261b.png](https://user-images.githubusercontent.com/123508751/234115044-28f8b343-156e-47f9-af4a-d0307a7c261b.png)
-
+![assets/test_12_2_2.png](assets/test_12_2_2.png)
 
 ### test_13_6_6.txt
 Input:  
@@ -111,9 +108,4 @@ Input:
 0 0 1 0 0 1
 ```
 GIF created:  
-![https://user-images.githubusercontent.com/123508751/234115045-a4a9321c-a52e-4c0a-aba8-b3d88cc86ee8.gif](https://user-images.githubusercontent.com/123508751/234115045-a4a9321c-a52e-4c0a-aba8-b3d88cc86ee8.gif)
-
-
-
-
-
+![assets/test_13_6_6.gif](assets/test_13_6_6.gif)
